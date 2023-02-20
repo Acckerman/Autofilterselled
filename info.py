@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['18517936'])
+API_HASH = environ['552ce63ba82ea7a633b039ee0dc87790']
+BOT_TOKEN = environ['6260479484:AAHkUf9EAi2y_SnqmFDuBLJjld7WjLngybY']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,8 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "LazyDeveloper")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1001828858627"))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Malyalam_Mallu_Movies')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
